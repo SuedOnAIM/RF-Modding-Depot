@@ -20,7 +20,7 @@ function CapPointAnimation:onCapturePointCaptured(capturePoint, newOwner)
         self.targets.blueCapObject.gameObject.SetActive(true)
         self.targets.redCapObject.gameObject.SetActive(false)
         self.targets.neutralCapObject.gameObject.SetActive(false)
-        self.gameObject.GetComponent(CapturePoint).captureRate = 0
+        --self.gameObject.GetComponent(CapturePoint).captureRate = 0
     else
         self.targets.blueCapObject.gameObject.SetActive(false)
         self.targets.redCapObject.gameObject.SetActive(true)
